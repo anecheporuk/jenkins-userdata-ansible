@@ -1,2 +1,5 @@
 [jenkins]
 localhost
+
+[tomcat]
+localhost
