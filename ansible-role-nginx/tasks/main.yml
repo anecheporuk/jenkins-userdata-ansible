@@ -1,0 +1,14 @@
+---
+  - name: install the latest version of Nginx
+    yum:
+      name: nginx
+      state: latest
+    become: true
+
+  - name: Configure Nginx
+    template: src=nginx.conf dest=/etc/nginx
+    become: true
+
+  - name: Nginx start
+    service: name=nginx state=started enabled=yes
+    become: true
