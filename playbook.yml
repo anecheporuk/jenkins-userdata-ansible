@@ -4,7 +4,7 @@
   vars:
     jenkins_hostname: "127.0.0.1"
     java_packages: "java-1.8.0-openjdk"
-    zabbix_version: "3.0"
+    zabbix_version: "2.4"
   roles:
     - role: ansible-role-jenkins
     - role: ansible-role-nginx
