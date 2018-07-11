@@ -7,4 +7,7 @@
   roles:
     - role: ansible-role-jenkins
     - role: ansible-role-nginx
+    - role: ansible-role-zabbix-server
+    - role: ansible-role-zabbix-javagateway
+    - role: ansible-role-zabbix-agent
       become: true
